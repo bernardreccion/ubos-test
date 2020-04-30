@@ -1,0 +1,64 @@
+.categoriesItem {
+    text-align: center;
+    cursor: pointer;
+}
+
+.categoriesItem:hover {
+    background-color: black;
+    color: white;
+}
+
+.blockContainer{
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.filterDiv{
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+    padding-left: 40px;
+}
+
+.fixCard{
+    display: inline-block;
+    width: 12rem;
+}
+
+.imageCatalog {
+    height: 180px;
+    width: 200px;
+    background-size: cover;
+}
+
+.imageWishlist {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+
+.productDetail{
+    height:280px;
+    width: 300px;
+    background-size: cover;
+}
+
+.productCart{
+    height:230px;
+    width: 250px;
+    background-size: cover;
+}
+
+.options {
+    text-align: center; 
+    padding-top: 20px;
+}
+
+
+.hide{
+    transform: scale(0);
+    width: 0;
+    padding: 0;
+    transition: all 0.1s ease-in-out;
+}
